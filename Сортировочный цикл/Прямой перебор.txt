@@ -1,0 +1,27 @@
+let mas = [ 3, 2, 7, 1];
+let min = mas[0];
+let minIndex = 0;
+
+for(i = 0; i  mas.length; i++)
+{
+	min = mas[i];
+	for(j = i + 1; j  mas.length; j++)
+	{
+		if(mas[j]  min)
+		{
+			min = mas[j];
+			minIndex = j;
+		}
+
+	}
+
+	if(min != mas[i])
+	{
+		let save = mas[i];
+		mas[i] = min;
+		mas[minIndex] = save;
+	}
+	
+}
+
+console.log(mas)

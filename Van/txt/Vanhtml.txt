@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Van , the game</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS/Van.css">		
+	</head>
+	<body>
+		<div class="game">
+			<div id="btn1" onclick="Left()">&lArr;</div>
+			<div id="btn2" onclick="Jump()">&uArr;</div>
+			<div id="btn3" onclick="Right()">&rArr;</div>
+			<canvas id="Van" width="500" height="300">
+			</canvas>
+		</div>
+		<script src="JS/Van.js"></script>
+	</body>
+</html>

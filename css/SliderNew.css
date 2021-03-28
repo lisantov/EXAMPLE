@@ -1,0 +1,66 @@
+.Container
+{
+	background-color: grey;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#btnPrevious
+{
+	width: 20px;
+	height:70px;
+	float: left;
+	text-align: center;
+	line-height: 70px;
+}
+#btnPrevious:hover
+{
+	cursor: pointer;
+	transition: all 0.1s;
+	background-color: lightgray;
+}
+.imgContainer
+{
+	position: relative;
+	border: solid 1px black;
+	width: 700px;
+	height: 450px;
+	background-color: lightgrey;
+	overflow: hidden;
+}
+#btnNext
+{
+	width: 20px;
+	height:70px;
+	float: left;
+	text-align: center;
+	line-height: 70px;
+}
+#btnNext:hover
+{
+	cursor: pointer;
+	transition: all 0.1s;
+	background-color: lightgray;
+}
+.slide
+{
+	position: relative;
+	right: 40;
+	bottom: 16;
+	width: 700px;
+	height: 450px;
+}
+#slideList
+{
+	width: 9999px;
+	height: 450px;
+	position: relative;
+	font-size: 0;
+}
+#slideList li
+{
+	position: relative;
+	top: 16;
+	display: inline-block;
+}

@@ -1,0 +1,41 @@
+.work
+{
+	width: 90%;
+	border: solid 2px black;
+	margin-left: 3%;
+	display: grid;
+	padding: 20px;
+	grid-template-columns: 25% 25% 25% 25%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	float: left;
+}
+.item
+{
+	height: 150px;
+	width: 275px;
+	border: solid 2px black;
+	margin-bottom: 25px;
+	box-shadow: 3px 3px 5px black
+}
+.item:hover
+{
+	cursor: pointer;
+}
+#loadMore
+{
+	top: 500;
+	font-size: 25;
+	width: 93.3%;
+	height: 50px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-left: 3%;
+	float: left;
+}
+#loadMore:hover
+{
+	cursor: pointer;
+}

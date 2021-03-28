@@ -1,0 +1,553 @@
+.wrap
+{
+	margin: auto;
+}
+.head
+{
+	width: 100%;
+}
+.head div:nth-child(1)
+{
+	position: absolute;
+	background-color: gray;
+	width: 100%;
+	height: 2px;
+	top: 48;
+}
+.title
+{
+	position: absolute;
+	font-size: 24;
+	left: 250;
+	color: gray;
+}
+.title div:nth-child(1)
+{
+	position: absolute;
+	font-size: 24;
+	left: 80;
+	top: 2;
+	color: black;
+}
+.title div:nth-child(2)
+{
+	position: absolute;
+	background-color: green;
+	border-radius: 90%;
+	width: 15px;
+	height: 15px;
+	left: 50;
+	top: 8;
+}
+.menu
+{
+	position: absolute;
+	font-size: 12;
+	left: 700;
+	top: 15;
+}
+.menu a
+{
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+}
+.menu a:nth-child(1)
+{
+	color: white;
+	width: 100px;
+	height: 25px;
+	background-color: black;
+}
+.content
+{
+	width: 80%;
+}
+.image
+{
+	position: absolute;
+	left: 500;
+	top: 150;
+}
+.IPAD
+{
+	position: absolute;
+	left: 250;
+	top: 200;
+	color: gray;
+	font-size: 30;
+}
+.text
+{
+	position: absolute;
+	color: white;
+	background-color: black;
+	font-size: 18;
+	height: 25px;
+	width: 150px;
+	text-align: center;
+	left: 250;
+	top: 310;
+}
+.text:hover
+{
+	cursor: pointer;
+}
+.camera
+{
+	position: absolute;
+	width: 50px;
+	height: 25px;
+	left: 225;
+	top: 310;
+	background-color: black;
+}
+.imagec
+{
+	position: absolute;
+	top: 5;
+	left: 10;
+}
+.bg
+{
+	position: absolute;
+	width: 150px;
+	height: 100px;
+	top: 550;
+	left: 200;
+}
+.pc
+{
+	position: absolute;
+	top: 75;
+	left: 125;
+}
+.phone
+{
+	position: absolute;
+	top: 75;
+	left: 40;
+}
+.a1
+{
+	position: absolute;
+	height: 50px;
+	width: 250px;
+	font-size: 22;
+	top: 550;
+	left: 550;
+}
+.a2
+{
+	position: absolute;
+	height: 200px;
+	width: 395px;
+	top: 625;
+	left: 550;
+}
+.left
+{
+	position: absolute;
+	left: 300;
+	top: 100;
+	background-color: rgb(128,128,128);
+	text-align: center;
+	width: 25px;
+	height: 40px;
+	font-size:35;
+}
+.right
+{
+	position: absolute;
+	background-color: rgb(192,192,192);
+	text-align: center;
+	width: 25px;
+	height: 40px;
+	font-size:35;
+	left: 325;
+	top: 100;
+}
+.right:hover,
+.left:hover
+{
+	cursor: pointer;
+}
+.firstN
+{
+	position: absolute;
+	top: 850;
+	left: 200;
+	font-size: 20;
+	color: gray;
+}
+.text1
+{
+	width: 200px;
+	height: 200px;
+	font-size: 16;
+	color: black;
+}
+.secondN
+{
+	position: absolute;
+	top: 1100;
+	left: 200;
+	font-size: 20;
+	color: gray;
+}
+.text2
+{
+	width: 200px;
+	height: 200px;
+	font-size: 16;
+	color: black;
+}
+.ThirdN
+{
+	position: absolute;
+	top: 1350;
+	left: 200;
+	font-size: 20;
+	color: gray;
+}
+.text3
+{
+	width: 200px;
+	height: 200px;
+	font-size: 16;
+	color: black;
+}
+.FirstA
+{
+	position: absolute;
+	top: 850;
+	left: 500;
+	font-size: 20;
+	color: gray;
+}
+.text4
+{
+	width: 200px;
+	height: 200px;
+	font-size: 16;
+	color: black;
+}
+.SecondA
+{
+	position: absolute;
+	top: 1100;
+	left: 500;
+	font-size: 20;
+	color: gray;
+}
+.text5
+{
+	width: 200px;
+	height: 200px;
+	font-size: 16;
+	color: black;
+}
+.ThirdA
+{
+	position: absolute;
+	top: 1350;
+	left: 500;
+	font-size: 20;
+	color: gray;
+}
+.text6
+{
+	width: 200px;
+	height: 200px;
+	font-size: 16;
+	color: black;
+}
+
+.FirstD
+{
+	position: absolute;
+	top: 850;
+	left: 800;
+	font-size: 20;
+	color: gray;
+}
+.text7
+{
+	width: 200px;
+	height: 200px;
+	font-size: 16;
+	color: black;
+}
+.SecondD
+{
+	position: absolute;
+	top: 1100;
+	left: 800;
+	font-size: 20;
+	color: gray;
+}
+.text8
+{
+	width: 200px;
+	height: 200px;
+	font-size: 16;
+	color: black;
+}
+.ThirdD
+{
+	position: absolute;
+	top: 1350;
+	left: 800;
+	font-size: 20;
+	color: gray;
+}
+.text9
+{
+	width: 200px;
+	height: 200px;
+	font-size: 16;
+	color: black;
+}
+.sidebar
+{
+	width: 20%
+}
+.Guide
+{
+	position: absolute;
+	border: solid 1px gray;
+	width: 250px;
+	height: 250px;
+	top: 550;
+	left:1090;
+	text-align: center;
+}
+.Guide:hover
+{
+	cursor: pointer;
+}
+.sv1
+{
+	font-size: 16;
+	color: gray;
+}
+.sv2
+{
+	color: green;
+	font-size: 30;
+}
+.big
+{
+	position: absolute;
+	left: 20;
+	top: 60;
+}
+.small
+{
+	position: absolute;
+	top: 125;
+	left: 100;
+}
+.css
+{
+	position: absolute;
+	left: 185;
+	top: 210;
+}
+.join
+{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: #00FA9A;
+	left: 1090;
+	top: 850;
+}
+.join:hover
+{
+	cursor: pointer;
+}
+.circle
+{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 70;
+	bottom: 145;
+	background-color: #FF1493;
+	border: solid 5px white;
+	border-radius: 90%
+}
+.ts1
+{
+	position: absolute;
+	color: white;
+	font-size: 36;
+	left: 105;
+	top: 10;
+}
+.ts2
+{
+	position: absolute;
+	color: white;
+	font-size: 30;
+	left: 80;
+	top: 45;
+}
+.ts3
+{
+	position: absolute;
+	left: 30;
+	top: 105;
+	color: white;
+	font-size: 34;
+}
+.ts4
+{
+	position: absolute;
+	color: white;
+	font-size: 22;
+	top: 150;
+	left: 5;	
+	text-align: center;
+}
+.ts5
+{
+	position: absolute;
+	color: white;
+	width: 150px;
+	height: 25px;
+	background-color: #008B8B;
+	text-align: center;
+	top: 225;
+	left: 50;
+}
+.reg
+{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: #696969;
+	left: 1090;
+	top: 1150;
+	text-align: center;
+}
+.tx1
+{
+	position: absolute;
+	color: white;
+	font-size: 22;
+	top: 10;
+	left: 20;
+}
+.tx2
+{
+	position: absolute;
+	width: 200px;
+	color: white;
+	font-size: 16;
+	top: 40;
+	left: 30;
+	text-align: left;
+}
+.tx3
+{
+	position: absolute;
+	color: white;
+	font-size: 18;
+	top: 95;
+	left: 30;
+}
+.write1
+{
+	position: absolute;
+	top: 130;
+	left: 35;
+}
+.tr1
+{
+	color: gray;
+	position: absolute;
+	bottom: 2;
+	left: 125;
+}
+.write2
+{
+	position: absolute;
+	top: 175;
+	left: 35;
+}
+.tr2
+{
+	color: gray;
+	position: absolute;
+	bottom: 2;
+	left: 125;
+}
+.sign
+{
+	position: absolute;
+	color: white;
+	width: 150px;
+	height: 25px;
+	top: 210;
+	left: 50;
+	background-color: #800000;
+	text-align: center;
+	border-radius: 20px;
+}
+.line
+{
+	position: absolute;
+	width: 250px;
+	height: 5px;
+	top: 250;
+	background-color: #800000;
+}
+.footer
+{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	top: 1650px;
+	text-align: center;
+	background-color: #808080;
+}
+.te1
+{
+	position: absolute;
+	color: white;
+	top: 70;
+	left: 475	;
+	font-size: 24;
+}
+.facebook
+{
+	position: absolute;
+	top: 70;
+	left: 900;
+}
+.twitter
+{
+	position: absolute;
+	top: 70;
+	left: 950;
+}
+.youtube
+{
+	position: absolute;
+	top: 70;
+	left: 1000;
+}
+.facebook:hover
+{
+	cursor: pointer;
+}
+.twitter:hover
+{
+	cursor: pointer;
+}
+.youtube:hover
+{
+	cursor: pointer;
+}

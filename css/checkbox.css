@@ -1,0 +1,120 @@
+.wrap
+{
+	background-color: yellow;
+	margin: auto;
+	padding: auto;
+	width: 100%;
+}
+.example1
+{
+
+}
+#cb1
+{
+
+}
+#cb1:checked ~ .text1
+{
+	color: white;
+}
+#cb2
+{
+
+}
+#cb2:checked ~ .text1
+{
+	font-weight: bolder;
+}
+#cb3
+{
+
+}
+#cb3:checked ~ .text1
+{
+	background-color: blue;
+}
+#cb4
+{
+
+}
+#cb4:checked ~ .text1
+{
+	border: solid 3px red; 
+}
+#cb5
+{
+
+}
+#cb5:checked ~ .text1
+{
+	border-radius: 0; 
+}
+#cb6
+{
+
+}
+#cb6:checked ~ .text1
+{
+	opacity: 0;
+}
+.text1
+{
+	color: black;
+	background-color: white;
+	width: 80%;
+	height: 200px;
+	margin-left: 10%; 
+	border-radius: 25px;
+	text-align:center;
+	border: solid 3px black; 
+	font-family: Abyss;
+}
+#bd1
+{
+
+}
+#bd1:checked ~ .text2
+{
+	columns: 1;
+}
+#bd2
+{
+
+}
+#bd2:checked  ~ .text2
+{
+	columns: 2;
+}
+#bd3
+{
+
+}
+#bd3:checked  ~ .text2
+{
+	columns: 3;
+}
+#bd4
+{
+
+}
+#bd4:checked  ~ .text2
+{
+	columns: 4;
+}
+.text2
+{
+	color: black;
+	background-color: white;
+	width: 80%;
+	height: 200px;
+	margin-left: 10%; 
+	border-radius: 25px;
+	text-align:center;
+	border: solid 3px black; 
+	font-family: Abyss;
+}
+@font-face
+{
+	font-family: Abyss;
+	src: url("../fonts/Shrift.ttf"); 
+}

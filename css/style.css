@@ -1,0 +1,869 @@
+.wrap
+{
+    margin: auto;
+    padding: auto;
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://peopletalk.ru/userfiles/images/4%28520%29.jpg);
+    background-color: rgb(134, 92, 29);
+}
+.header
+{
+    position: relative;
+    width: 90%;
+    height: 300px;
+    background-size: cover;
+    background-image: url("../imgs/baG.jpg");
+    margin-left: 5%;
+}
+.button
+{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    height: 25px;
+    width: 150px; 
+    top: 130;
+    left: 25;
+    text-align: center;
+    font-size: 22;
+    border: solid 1px white;
+}
+.button:hover
+{
+    cursor: pointer;
+}
+.title
+{
+    color: white;
+    font-size: 36;
+    text-align: center;
+}
+.adress
+{
+    position: absolute;
+    color: white;
+    top: 175;
+    left: 10;
+    font-size: 22;
+}
+.navig
+{
+    position: absolute;
+    text-align: center;
+    top: 300;
+    left: 0;
+    color: white;
+    font-size: 30;
+    display: inline;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    cursor: default;
+}
+.navig a
+{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+}
+.navig a:hover
+{
+    cursor: pointer;
+    color: gray;
+}
+.navig ul
+{
+    display: inline;
+    text-decoration: none;
+}
+.navig li
+{
+    width: 75px;
+    height: 10px;
+    display: inline;
+    text-decoration: none;
+}
+.navig div:nth-child(1)
+{
+    position: absolute;
+    top: 40;
+    left: 275;
+    height: 0;
+    width: 75px;
+    border: solid 3px orange;
+}
+.navig div:nth-child(2)
+{
+    position: absolute;
+    top: 40;
+    left: 470;
+    height: 0;
+    width: 75px;
+    border: solid 3px gray;
+}
+.navig div:nth-child(3)
+{
+    position: absolute;
+    top: 40;
+    left: 665;
+    height: 0;
+    width: 75px;
+    border: solid 3px gray;
+}
+.navig div:nth-child(4)
+{
+    position: absolute;
+    top: 40;
+    left: 880;
+    height: 0;
+    width: 75px;
+    border: solid 3px gray;
+}
+.content
+{
+    position: relative;
+    margin: auto;
+    padding: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.search
+{
+    width: 100%;
+    height: 3000px;
+    background-color: white;
+}
+.ins
+{
+    position: absolute;
+    font-size: 20;
+    top: 25;
+    left: 200;
+}
+
+.input
+{
+    position: absolute;
+    top: 50;
+    left: 190;
+    width: 750px;
+    height: 35px;
+    background-color: rgb(211, 208, 208);
+    border-radius: 50px 0px 0px 50pxw;
+}
+.input:hover
+{
+    background-color: white;
+}
+.img
+{
+    width: 200px;
+    position: absolute;
+    top: 50;
+    left: 850;
+    background-color: rgb(255, 208, 0);
+    border-radius: 0px 50px 50px 0px;
+    border: solid 2px black;
+    display: inline;
+    text-align: top;
+    font-size: 20; 
+}
+.img:hover
+{
+    cursor: pointer;
+}
+.sidebar
+{
+    position: relative;
+    float: left;
+    width: 10%;
+}
+.menu
+{
+    position: absolute;
+    bottom:2850;
+    background-color: rgb(70, 70, 70);
+    width:220px;
+    height: 45px;
+    text-align: center;
+    font-size: 20;
+    color: white;
+    box-shadow: 2px 3px 5px 0px black;
+}
+.perech
+{
+    text-align: left;
+    margin-top: 19px;
+    height: 800px;
+}
+.about
+{
+    border: solid 1px gray; 
+    height: 50px;
+    box-shadow: 2px 3px 5px 0px black;
+} 
+.catal
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.acord
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.guit
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.duh
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.klav
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.strun
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.udar
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.narod
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.perk
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.tune
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.acces
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.dost
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.acti
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.otziv
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.cont 
+{
+    height: 50px;
+    border: solid 1px gray; 
+    box-shadow: 2px 3px 5px 0px black;
+}
+.nazv
+{
+    height: 200px;
+    width: 220px;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    box-shadow: 2px 3px 5px 0px black;
+}
+.about a
+{
+    text-decoration: none;
+    color: black;
+} 
+.catal a
+{
+    text-decoration: none;
+    color: black;
+}
+.acord a
+{
+    text-decoration: none; 
+    color: black;
+}
+.guit a
+{
+    text-decoration: none;
+    color: black;
+}
+.duh a
+{
+    text-decoration: none;
+    color: black;
+}
+.klav a
+{
+    text-decoration: none;
+    color: black;
+}
+.strun a
+{
+    text-decoration: none; 
+    color: black;
+}
+.udar a
+{
+    text-decoration: none;
+    color: black;
+}
+.narod a
+{
+    text-decoration: none;
+    color: black;
+}
+.perk a
+{
+    text-decoration: none; 
+    color: black;
+}
+.tune a
+{
+    text-decoration: none;
+    color: black;
+}
+.acces a
+{
+    text-decoration: none;
+    color: black;
+}
+.dost a
+{
+    text-decoration: none;
+    color: black;
+}
+.acti a
+{
+    text-decoration: none;
+    color: black;
+}
+.otziv a
+{
+    text-decoration: none;
+    color: black;
+}
+.cont a 
+{
+    text-decoration: none;
+    color: black;
+}
+.about a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+} 
+.catal a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.acord a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.guit a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.duh a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.klav a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.strun a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.udar a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.narod a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.perk a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.tune a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.acces a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.dost a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.acti a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.otziv a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.cont a:hover
+{
+    transition: all 0.1s in ease;
+    color: rgb(0, 153, 255);
+}
+.main
+{
+    position: absolute;
+    background-color: rgb(228, 228, 228);
+    width: 72%;
+    height: 2890px;
+    top: 105;
+    left: 223;
+    float: left;
+    font-size: 26;
+}
+.pic
+{
+    width: 90%;
+    height: 300px;
+    background-image: url("../imgs/guit.jpg");
+    margin-left: 5%;
+    margin-top: 25px;
+    border-radius: 25px;
+    text-align: center;
+}
+.we
+{
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 26;
+}
+.fir
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 25px;
+    top: 400px;
+    background-image: url("../imgs/1.jpg");
+}
+.fir:hover
+{
+    cursor: pointer;
+}
+.sec
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 250px;
+    top: 400px;
+    background-image: url("../imgs/2.jpg");
+}
+.sec:hover
+{
+    cursor: pointer;
+}
+.thi
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 475px;
+    top: 400px;
+    background-image: url("../imgs/3.jpg");
+}
+.thi:hover
+{
+    cursor: pointer;
+}
+.fou
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 700px;
+    top: 400px;
+    background-image: url("../imgs/4.jpg");
+}
+.fou:hover
+{
+    cursor: pointer;
+}
+.fiv
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 25px;
+    top: 650px;
+    background-image: url("../imgs/5.jpg");
+}
+.fiv:hover
+{
+    cursor: pointer;
+}
+.six
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 250px;
+    top: 650px;
+    background-image: url("../imgs/6.jpg");
+}
+.six
+{
+    cursor: pointer;
+}
+.sev
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 475px;
+    top: 650px;
+    background-image: url("../imgs/7.jpg");
+}
+.sev:hover
+{
+    cursor: pointer;
+}
+.eig
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 700px;
+    top: 650px;
+    background-image: url("../imgs/8.jpg");
+}
+.eig:hover
+{
+    cursor: pointer;
+}
+.nin
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 25px;
+    top: 900px;
+    background-image: url("../imgs/9.jpg");
+}
+.nin:hover
+{
+    cursor: pointer;
+}
+.ten 
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 250px;
+    top: 900px;
+    background-image: url("../imgs/10.jpg");
+}
+.ten:hover
+{
+    cursor: pointer;
+}
+.ele
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 475px;
+    top: 900px;
+    background-image: url("../imgs/11.jpg");
+}
+.ele:hover
+{
+    cursor: pointer;
+}
+.requests
+{
+    position: absolute;
+}
+.guitar1
+{
+    position:  absolute;
+    width: 200px;
+    height: 300px;
+    border: solid 1px gray;
+    bottom: 1300;
+    left: 250;
+    text-align: bottom;
+    display: flex;
+    flex-direction: end;
+    align-items: flex-end;
+    font-size: 22;
+}
+.guitar1:hover
+{
+    cursor: pointer;
+}
+.img1
+{
+    position: absolute;
+    height: 214px;
+    width: 200px;
+    top: 0;
+    background-image:url("../imgs/classic.jpg");
+}
+.have
+{
+    position: absolute;
+    color: green;
+    top: 0;
+    font-size: 16;
+    background-color: black;
+}
+.guitar1 a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18;
+}
+.guitar1 a:hover
+{
+    text-decoration: underline;
+    color: blue;
+}
+.guitar2
+{
+    position:  absolute;
+    width: 200px;
+    height: 300px;
+    border: solid 1px gray;
+    bottom: 1300;
+    left: 500;
+    text-align: bottom;
+    display: flex;
+    flex-direction: end;
+    align-items: flex-end;
+    font-size: 22;
+}
+.guitar2:hover
+{
+    cursor: pointer;
+}
+.img2
+{
+    position: absolute;
+    height: 214px;
+    width: 200px;
+    top: 0;
+    background-image:url("../imgs/elect.jpg");
+}
+.have1
+{
+    position: absolute;
+    top: 0;
+    color: red;
+    font-size: 16;
+    background-color: black
+}
+.guitar2 a
+{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    top: 210;
+    font-size: 18;
+}
+.guitar2 a:hover
+{
+    text-decoration: underline;
+    color: blue;
+}
+.price
+{
+    position: absolute;
+}
+.price:hover
+{
+    cursor: pointer;
+}
+.our
+{
+    position: absolute;
+    left: 250;
+    bottom: 1650;
+    font-size: 28; 
+}
+.but1
+{
+    position: absolute;
+    top: 310;
+    right: 25;
+    background-color: yellow;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20;
+    text-align: center;
+}
+.but2
+{
+    position: absolute;
+    top: 310;
+    right: 25;
+    background-color: yellow;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20;
+    text-align: center;
+}
+.all
+{
+    position: absolute;
+    width: 800px;
+    height: 40px;
+    left: 255;
+    bottom: 1100;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 22;
+    color: blue;     
+    background-color: darkgray;
+}
+.all:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.best
+{
+    position: relative;
+    left: 250;
+    bottom: 1000;
+    font-size: 26; 
+}
+.text1
+{
+    width: 825;
+    font-size: 20;
+}
+.company
+{
+    position: relative;
+    bottom: 900;
+    left: 250;
+    font-size: 26;
+    margin-bottom: 25px;
+}
+.text2
+{
+    width: 825;
+    height: 100;
+    font-size: 20;
+}
+.more
+{
+    position: absolute;
+    color: blue;
+    top: 100;
+    left: 600;   
+}
+.type
+{
+    position: relative;
+    left: 250;
+    bottom: 850;
+    font-size: 26;
+}
+.text3
+{
+    font-size: 20;
+}
+.footer
+{
+    position: absolute;
+    background-color: gray;
+    width: 100%;
+    height: 300px;
+    bottom: 0; 
+}
+.blizko
+{
+    position: absolute;
+    width: 100%;
+    background-color: darkgray;
+    height: 200px
+}
+.messageus
+{
+    position: absolute;
+    bottom: 250;
+    left: 50;
+    color: blue; 
+}
+.adress1
+{
+    position: absolute;
+    bottom: 225;
+    left: 50;
+}
+.call
+{
+    position: absolute;
+    bottom: 170;
+    left: 50
+}

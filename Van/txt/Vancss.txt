@@ -1,0 +1,72 @@
+.game
+{
+	display: flex;
+	border: solid 1px black;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: lightgray;
+}
+#btn1
+{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 45px;
+	margin-right: 210px;
+	width: 200px;
+	height: 25px;
+	font-size: 20;
+	border-radius: 20px;
+	border: solid 3px black;
+	background-color: white;
+	text-align: center;
+}
+#btn1:hover
+{
+	cursor: pointer;
+}
+#btn2
+{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 80px;
+	width: 100px;
+	height: 25px;
+	font-size: 20;
+	border-radius: 20px;
+	border: solid 3px black;
+	background-color: white;
+	text-align: center;
+}
+#btn2:hover
+{
+	cursor: pointer;
+}
+#btn3
+{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 45px;
+	margin-left: 210px;
+	width: 200px;
+	height: 25px;
+	font-size: 20;
+	border-radius: 20px;
+	border: solid 3px black;
+	background-color: white;
+	text-align: center;
+}
+#btn3:hover
+{
+	cursor: pointer;
+}
+#Van
+{
+	margin: auto;
+	width: 1000px;
+	height: 585px;
+	border: solid 1px black;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: white;
+}

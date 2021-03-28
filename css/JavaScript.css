@@ -1,0 +1,44 @@
+.wrap
+{
+	background-color: gray;
+}
+#k1
+{
+	height: 200px;
+	width: 300px;
+	background-color: red;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+#k2
+{
+	height: 200px;
+	width: 300px;
+	background-color: yellow;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+#k3
+{
+	height: 200px;
+	width: 300px;
+	background-color: blue;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+#k4
+{
+	height: 200px;
+	width: 300px;
+	background-color: white;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+#k5
+{
+	height: 200px;
+	width: 300px;
+	background-color: green;
+	margin-left: 50px;
+}

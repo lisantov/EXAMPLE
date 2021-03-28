@@ -1,0 +1,99 @@
+let canvas = document.getElementById("Van");
+let ctx = canvas.getContext("2d");
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+let imgBg = new Image();
+let imgMario = new Image();
+let imgGumba = new Image();
+let imgBlock = new Image();
+let imgTriple = new Image();
+let imgCoin = new Image();
+let imgTriple1 = new Image();
+let imgFg = new Image();
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+let imgFolder = "imgs/";
+    imgBg.src = imgFolder + "Bg.png";
+    imgMario.src = imgFolder + "Mario.png";
+    imgGumba.src = imgFolder + "Enemy.png";
+    imgBlock.src = imgFolder + "1.png";
+    imgTriple.src = imgFolder + "triple1.png";
+    imgTriple1.src = imgFolder + "triple2.png";
+    imgCoin.src = imgFolder + "2.png";
+    imgFg.src = imgFolder + "Fg.png";
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+let windowHeight = 260;
+let marioX = 100;
+let marioY = 230;
+let speed = 3;
+let Gumba =[];
+Gumba[0] = {
+    x : 405,
+    y : 212
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+function draw()
+{
+    
+    ctx.drawImage(imgBg,0,0);
+    ctx.drawImage(imgTriple,225,185);
+    ctx.drawImage(imgTriple1,325,100)
+    ctx.drawImage(imgCoin,375,185);
+    ctx.drawImage(imgFg, 0 , canvas.height - imgFg.height);
+
+    for(let i = 0; i < Gumba.length; i++)
+    {
+        ctx.drawImage(imgGumba, Gumba[i].x, Gumba[i].y);
+    }
+    ctx.drawImage(imgMario, marioX, marioY);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+function Van()
+{
+    draw();
+    requestAnimationFrame(Van);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+function Land()
+{
+    if(marioY - imgMario.height === imgFg.y)
+    {
+        speed = 0;
+    }
+    if(marioY - imgMario.height === imgTriple.y)
+    {
+        speed = 0;
+    }
+    if(marioY - imgMario.height === imgTriple1.y)
+    {
+        speed = 0;
+    }
+    if(marioY - imgMario.height === imgCoin.y)
+    {
+        speed = 0;
+    }
+}
+function Jump()
+{
+    let marioYstart = marioY;
+     marioY -= speed;
+    if(marioYstart - imgMario.height < marioY - imgMario.height )
+        (
+            speed = -3
+        )
+    Land();
+    
+    requestAnimationFrame(Jump);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+function Left()
+{
+    marioX -= speed;
+    requestAnimationFrame(Left);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+function Right()
+{
+    marioX += speed;
+    requestAnimationFrame(Right);
+}
+canvas.onclick = Jump;
+imgGumba.onload = Van;
